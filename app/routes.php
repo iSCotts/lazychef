@@ -10,7 +10,10 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+//$lazychefControllers = 'Lazychef\Core\Controllers\\';
+//Route::get('/login', array('uses' => $lazychefControllers.'LoginController@create', 'as' => 'lazychef.admin.login'));
+//Route::get('/lazychef/login', array('uses' => $lazychefControllers.'LoginController@create', 'as' => 'lazychef.admin.login'));
+//Route::get('/admin', array('uses' => $lazychefControllers.'LoginController@create', 'as' => 'lazychef.admin.login'));
 Route::group(array('prefix' => 'install'), function()
 {
 	Route::get('/', array('uses' => 'InstallController@start', 'as' => 'lazychef.install.index'));

@@ -8,6 +8,6 @@
   <div id="install-region">
     <h1>Success</h1>
     <p>Install complete.</p>
-    <p>You can now <a href="{{ url('lazychef') }}">login to the admin</a></p>
+    <p>You can now <a href="{{ lazychef_url('/lazychef/login') }}">login to the admin</a></p>
   </div>
 @stop

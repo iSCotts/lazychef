@@ -13,7 +13,7 @@
         <nav>
           <ul>
             <li><a href="{{ lazychef_url('/archive') }}">Posts</a></li>
-            <li><a href="{{ lazychef_url('/about') }}">About</a></li>
+            <!--<li><a href="{{ lazychef_url('/about') }}">About</a></li>-->
             <li><a href="{{ lazychef_url('/rss') }}">RSS</a></li>
           </ul>
         </nav>
