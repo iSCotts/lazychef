@@ -15,6 +15,12 @@
           <ul>
             <li><a href="{{ lazychef_url('archive') }}">Posts</a></li>
             <li><a href="{{ lazychef_url('rss') }}">RSS</a></li>
+            @if (!Auth::check())
+            <li><a href="{{ lazychef_url('/lazychef/login') }}">Login</a></li>
+            @endif
+            @if (Auth::check())
+            <li><a href="{{ lazychef_url('/lazychef') }}">Admin</a></li>
+            @endif
           </ul>
         </nav>
       </header>

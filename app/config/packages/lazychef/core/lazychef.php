@@ -43,7 +43,7 @@ return array(
 	| Set this to the directory of the theme you want active. No slashes.
 	|
 	*/
-	'theme' => 'default',
+	'theme' => '##theme##',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ return array(
 	| Set this to your sites title
 	|
 	*/
-	'title' => 'LazyChef',
+	'title' => '##title##',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -63,7 +63,7 @@ return array(
 	| Set this to the number of posts you want per page.
 	|
 	*/
-	'per_page' => 5,
+	'per_page' => '##per_page##',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -73,7 +73,7 @@ return array(
 	| This sets a flag so that it can only be installed once.
 	|
 	*/
-	'installed' => true,
+	'installed' => '##installed##',
 
 	/*
 	|--------------------------------------------------------------------------
