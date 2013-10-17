@@ -2,26 +2,26 @@
 
 [![Latest Stable Version](https://poser.pugx.org/lazychef/lazychef/version.png)](https://packagist.org/packages/lazychef/lazychef) [![Total Downloads](https://poser.pugx.org/lazychef/lazychef/d/total.png)](https://packagist.org/packages/lazychef/lazychef)
 
-Lazychef is designed to be a very minimal blogging platform with the primary focus on writing. Currently it is a work in progress but you are free to give it a try. (Just be warned this alpha/beta quality). If you have any issues or ideas please report them.
+Lazychef was designed with siplistic bloggers in mind. It is simply just that, a blogging platform. It is still a work in progress but we do encourage you to give it a try(Just remember this is still in its alpha stages). Should you have any issues do not hesitate to report them.
 
-![Wardobe](http://lazychefcms.com/media/lazychef-air-large.png)
+![Wardobe](http://i43.tinypic.com/2cbsc5.jpg)
 
 
 Installing Lazychef
 ---------------------------------------
 
-Installing Lazychef is now as simple as running `composer create-project lazychef/lazychef`.
-After running this command, modify your `app/config/database.php` file with your database credentials and visit the site in your browser.
+Installing Lazychef is very easy. Simply open Command Interface , navigate to where you would like to download the files then simply run `composer create-project lazychef/lazychef` in your cmd
+Once you are done running the command and downloading, head on over to `app/config/database.php` where you can modify your file with your database credentials (which must have beedn created beforehand) and visit the site in your browser.
 
-In the browser you will be directed to the guided install process which will:
+Once you visit the site for the first time you will be guided through the setup process:
 
-* Prepare your database for LazychefCMS
-* Help you create your first user
-* Help you set your site title, theme, and page values
+* Be sure to prepare the database before you continue
+* Create your loging credentials
+* Select a theme
 
 
-Theming Lazychef
+Changing the theme
 ---------------------------------------
-By default, your theme files are located in `public/themes`.
-You can modify these themes or create your own using the default themes as a guide.
-The configuration for your themes is located in `app/config/packages/lazychef/core/lazychef.php` in the `theme` option.
+Your theme files are located in `public/themes`.
+These themes can be modified or used as a guide to create a new theme.
+Configuration settings for the theme are located at `app/config/packages/lazychef/core/lazychef.php` in the `theme` option.
